@@ -1,0 +1,9 @@
+﻿<Application x:Class="Foutopsporing_3___TryCatchDatum.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Foutopsporing_3___TryCatchDatum"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

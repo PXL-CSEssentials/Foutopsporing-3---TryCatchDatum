@@ -1,0 +1,15 @@
+﻿<Window x:Class="Foutopsporing_3___TryCatchDatum.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Foutopsporing_3___TryCatchDatum"
+        mc:Ignorable="d"
+        Title="Correcte datum controleren...." Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid>
+        <TextBox x:Name="dayTextBox" HorizontalAlignment="Left" Margin="85,76,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Foreground="#FF00DF03"/>
+        <TextBox x:Name="monthTextBox" HorizontalAlignment="Left" Margin="245,76,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Foreground="#FF00DF03"/>
+        <TextBox x:Name="yearTextBox" HorizontalAlignment="Left" Margin="411,76,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Foreground="#FF00DF03"/>
+        <Button x:Name="checkButton" Content="Check" HorizontalAlignment="Left" Margin="245,120,0,0" VerticalAlignment="Top" Width="120" Height="29" Click="checkButton_Click" Background="#FF00DF03" Foreground="White"/>
+    </Grid>
+</Window>
